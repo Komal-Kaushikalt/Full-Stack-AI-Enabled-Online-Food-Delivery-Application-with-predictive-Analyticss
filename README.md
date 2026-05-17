@@ -102,4 +102,81 @@ The system allows users to browse food items, place orders, and make payments, w
 
 ---
 
+## 📂 Project Structure
 
+AI Food App/
+│
+├── frontend/ # React Frontend
+├── backend/ # Node + Express Backend
+├── .gitignore
+├── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+
+### 2️⃣ Install dependencies
+
+#### Frontend:
+#### Backend:
+
+---
+
+### 3️⃣ Setup Environment Variables
+
+Create a `.env` file in backend folder:
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+PORT=5000
+
+
+---
+
+### 4️⃣ Run the application
+
+#### Start backend:
+### Start frontend:
+
+---
+
+## 💳 Payment Integration
+- Cash on Delivery (COD)
+- UPI (optional)
+- Razorpay (Test mode supported)
+
+---
+
+## 🔐 Authentication
+- Implemented using JWT (JSON Web Token)
+- Secure login and protected routes
+
+---
+
+## 📊 Future Enhancements
+- Advanced AI recommendation system
+- Real-time order tracking
+- Mobile app version
+- Admin analytics dashboard improvements
+
+---
+
+## 🎯 Learning Outcomes
+- Full-stack development using MERN
+- REST API development
+- Authentication using JWT
+- Database management with MongoDB
+- Git & GitHub workflow
+
+---
+
+## 👨‍💻 Author
+**Komal Kaushik**
+
+---
+
+## 📜 License
+This project is developed for educational purposes.
